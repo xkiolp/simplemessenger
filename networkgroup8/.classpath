@@ -6,7 +6,12 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/LG/OneDrive/바탕 화면/텍스트/컴퓨터네트워크및실습/팀프로젝트-20221210T001031Z-001/팀프로젝트/json-simple-1.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Program Files (x86)/MySQL/Connector J 8.0/mysql-connector-java-8.0.30.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jsy44/Downloads/mysql-connector-java-8.0.30/mysql-connector-java-8.0.30.jar">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/jsy44/Downloads/json-simple-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/jsy44/Downloads/json-20220924.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

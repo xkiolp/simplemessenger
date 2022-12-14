@@ -35,7 +35,7 @@ public class Server_Back extends Thread
    Statement stmt = null;
    String url = "jdbc:mysql://localhost/chat";
    String user = "root";
-   String passwd = "1234";
+   String passwd = "12345";
    
    //데이터베이스에서 user들 새로 읽어와서 서버 userlist 업데이트 && user의 today message도 업데이트
    public void updateUser() throws Exception 

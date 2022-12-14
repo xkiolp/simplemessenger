@@ -105,7 +105,7 @@ class LoginGUI extends JFrame implements ActionListener
          this.portNum=portNum;
                 
          //추가 뒷 배경 설정. 상대경로로 설정이 잘안되서 절대경로로 이미지 얻음.
-         ImageIcon ic2=new ImageIcon("img/bg.png"); 
+         ImageIcon ic2=new ImageIcon("C:\\img\\bg.png"); 
          JPanel basePanel = new JPanel(new BorderLayout())
          {
                 public void paintComponent(Graphics g) {
@@ -118,7 +118,7 @@ class LoginGUI extends JFrame implements ActionListener
          setContentPane(basePanel); //background를 contentpane으로 사용.-> add 대신 background.add로.
          
          //추가 로고 띄우고 그 밑에 프로그램 이름 띄우기.
-         ImageIcon ic=new ImageIcon("img/msg2.png"); 
+         ImageIcon ic=new ImageIcon("C:\\img\\msg2.png"); 
          JLabel imageL=new JLabel(ic); 
          JLabel textL=new JLabel("         simple messenger         ");   
          textL.setFont(new Font("Serif", Font.BOLD, 30));
@@ -614,7 +614,7 @@ class Client_mainGUI extends Thread implements ActionListener, KeyListener
    Client_Back CB = new Client_Back();
    JPanel ClientGUIPanel = new JPanel(null);
    JPanel northPanel = new JPanel(null); 
-   ImageIcon ic2=new ImageIcon("img/bg.png");
+   ImageIcon ic2=new ImageIcon("C:\\img\\bg.png");  
    JPanel southPanel; 
    JLabel UserLabel = new JLabel("friends");
    JList<String> UserList;
